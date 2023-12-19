@@ -15,6 +15,6 @@ public class DataLoadController {
 
     @PostMapping("/api/load")
     public void getApiData() throws IOException {
-        dataLoadService.fetchAndSaveDataFromApi();;
+        dataLoadService.fetchAndSaveDataFromApi();
     }
 }
